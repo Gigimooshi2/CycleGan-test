@@ -8,4 +8,5 @@ build_steps:
     - pip install numpy==1.14.1
     - pip install visdom==0.1.7
     - pip install scipy
+    - pip install torchfile
     - pip install git+https://github.com/pytorch/vision.git
