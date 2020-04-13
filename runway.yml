@@ -1,6 +1,6 @@
 version: 0.1
 python: 3.5
-
+entrypoint: python test.py
 build_steps:
     - pip install dominate==2.3.1
     - pip install git+https://github.com/pytorch/vision.git
