@@ -3,11 +3,11 @@ version: 0.1
 python: 3.6
 entrypoint: python test.py
 build_steps:
-    - pip install dominate==2.3.1
+    - pip install dominate
     - pip install torch
     - pip install Pillow==5.0.0
     - pip install numpy==1.14.1
-    - pip install visdom==0.1.7
+    - pip install visdom
     - pip install scipy
     - pip install torchfile
     - pip install git+https://github.com/pytorch/vision.git
